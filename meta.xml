@@ -1,0 +1,18 @@
+<meta>
+    <info name="BanAPI" author="rootcause" type="script" />
+
+    <!-- Files -->
+    <script src="BanAPI.cs" type="server" lang="csharp" />
+
+    <!-- Exported Functions -->
+    <export class="BanAPI" function="IsPlayerBanned" />
+    <export class="BanAPI" function="IsValueBanned" />
+    <export class="BanAPI" function="IsValueBannedWithType" />
+    <export class="BanAPI" function="GetBanInfo" />
+    <export class="BanAPI" function="BanPlayer" />
+    <export class="BanAPI" function="BanValue" />
+    <export class="BanAPI" function="Unban" />
+
+    <!-- Libraries -->
+    <assembly ref="Newtonsoft.Json.dll" />
+</meta>
